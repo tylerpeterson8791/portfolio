@@ -1,0 +1,36 @@
+Home Page:
+
+Issues- Footer not sticking on bottom.  When squeezed, there's space at the top.
+
+ToDo-   Write bio.
+        Decide on Picture or something different.
+
+
+
+
+Portfolio Page:
+
+Issues- Images not passing through.
+
+ToDo-   Get real screenshots.
+        Make links clickable icons
+        Gifs?
+        Start with 4? 6? Decide what to put on there.
+
+
+
+Contact Page:
+
+Issues-
+
+ToDo-   Figure out where submissions go?
+        Stylize with rest
+
+
+
+
+Resume Page:
+
+Issues-
+
+ToDo-   Should it just be a big "pdf" style resume?

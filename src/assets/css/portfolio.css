@@ -1,0 +1,20 @@
+.portfolio-page {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  .content-container {
+    flex: 1;
+  }
+  
+  .project-container {
+    border: 1px solid #ddd; /* Add borders or any other styling for projects */
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .project-image {
+    max-width: 100%;
+    height: auto;
+  }
