@@ -4,7 +4,12 @@ import Header from '../components/header';
 import Footer from '../components/footer';
 import Project from '../components/project'
 import "/node_modules/bootstrap/dist/css/bootstrap.min.css";
-// import p1Image from '../assets/images/p1.png';
+import p1Image from '../assets/images/P1.png';
+import p2Image from '../assets/images/P2.jpg';
+import p3Image from '../assets/images/p3.png';
+import p4Image from '../assets/images/p4.png';
+import p5Image from '../assets/images/P5.png';
+import p6Image from '../assets/images/p6.png';
 import '../assets/css/portfolio.css'
 
 const Portfolio = () => {
@@ -16,7 +21,7 @@ const Portfolio = () => {
           <Col xs={12} md={6}>
             <Project
               title="Project 1"
-              image="../assets/images/p1.png"
+              image={p1Image}
               deployedLink="https://espn.com/"
               githubLink="https://github.com/"
             />
@@ -24,7 +29,7 @@ const Portfolio = () => {
           <Col xs={12} md={6}>
             <Project
               title="Project 2"
-              image="../assets/images/p2.jpg"
+              image={p2Image}
               deployedLink="https://espn.com/"
               githubLink="https://github.com/"
             />
@@ -32,7 +37,7 @@ const Portfolio = () => {
           <Col xs={12} md={6}>
             <Project
               title="Project 3"
-              image="../assets/images/p3.png"
+              image={p3Image}
               deployedLink="https://espn.com/"
               githubLink="https://github.com/"
             />
@@ -40,7 +45,7 @@ const Portfolio = () => {
           <Col xs={12} md={6}>
             <Project
               title="Project 4"
-              image="../assets/images/p4.png"
+              image={p4Image}
               deployedLink="https://espn.com/"
               githubLink="https://github.com/"
             />
@@ -48,7 +53,7 @@ const Portfolio = () => {
           <Col xs={12} md={6}>
             <Project
               title="Project 5"
-              image="../assets/images/p5.png"
+              image={p5Image}
               deployedLink="https://espn.com/"
               githubLink="https://github.com/"
             />
@@ -56,7 +61,7 @@ const Portfolio = () => {
           <Col xs={12} md={6}>
             <Project
               title="Project 6"
-              image="../assets/images/p6.png"
+              image={p6Image}
               deployedLink="https://espn.com/"
               githubLink="https://github.com/"
             />

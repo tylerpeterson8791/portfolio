@@ -8,7 +8,7 @@ import resumeImage from '../assets/images/resume.jpg'; // Adjust the path based 
 
 const Resume = () => {
   return (
-    <div className="resume-page">
+    <div className="page-container">
       <Header />
       <Container className="fluid content-container">
         <Row>

@@ -16,3 +16,34 @@ html, body, #root {
 .footer-stick {
   margin-top: auto;
 }
+
+.press-start {
+  font-family: "Press Start 2P", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.press-start img {
+  max-width: 100%; /* Make the image responsive */
+}
+
+.press-start h1 {
+  text-align: center; /* Center the heading text */
+}
+
+.press-start p {
+  text-align: center;
+  font-size: large; /* Center the paragraph text */
+}
+
+.dark-mode {
+  background-color: slategray; /* Slate background color */
+  color: white;
+}
+
+.about-me{
+display: flex;
+align-items: center;
+justify-content: center;
+height: 100vh; /* Full viewport height */
+}
