@@ -30,7 +30,7 @@ const Contact = () => {
   };
 
   return (
-    <div className="contact-page">
+    <div className="page-container dark-mode">
       <Header />
       <Container className="fluid content-container">
         <Form onSubmit={handleSubmit}>

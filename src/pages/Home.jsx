@@ -3,32 +3,38 @@ import { Container, Row, Col } from 'react-bootstrap';
 import Header from '../components/header';
 import Footer from '../components/footer';
 import "/node_modules/bootstrap/dist/css/bootstrap.min.css";
-import marioImage from '../assets/images/marioImage.png';
-import '../App.css'
+import mmaker from '../assets/images/mmaker.jpg'
+
 
 
 export default function Home() {
   return (
-    <div className="page-container">
+    <div className="page-container press-start dark-mode">
       <Header/>
-      <Container className='fluid content-container'>
+      <Container className="about-me">
         <Row>
           {/* Left side with an image */}
           <Col xs={12} md={6}>
-            <img src={marioImage} alt="Mario Image REPLACE" className="img-fluid" />
+            <img src={mmaker} alt="My Son and I with a Switch game" className="img-fluid" />
           </Col>
 
           {/* Right side with a heading and text block */}
           <Col xs={12} md={6}>
-            <Container>
+            
               <h1>Tyler Peterson</h1>
+              
               <p>
-                This is where a quick bio will go.   This is where a quick bio will go.  This is where a quick bio will go.  This is where a quick bio will go.  This is where a quick bio will go.  This is where a quick bio will go.  This is where a quick bio will go.  This is where a quick bio will go.  This is where a quick bio will go.  This is where a quick bio will go.
+                Always seeking knowledge.
               </p>
+              
               <p>
-              This is where a quick bio will go.  This is where a quick bio will go.  This is where a quick bio will go.  This is where a quick bio will go.  This is where a quick bio will go.  This is where a quick bio will go.
+              Loves creation and problem solving.
               </p>
-            </Container>
+              
+              <p>
+              Father of three.  Adventure seeker.  Junior Developer
+              </p>
+            
           </Col>
         </Row>
       </Container>
