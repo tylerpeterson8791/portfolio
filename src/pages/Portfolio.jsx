@@ -14,7 +14,7 @@ import '../assets/css/portfolio.css'
 
 const Portfolio = () => {
   return (
-    <div className="portfolio-page">
+    <div className="portfolio-page dark-mode">
       <Header />
       <Container className="fluid content-container">
         <Row>
