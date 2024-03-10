@@ -21,16 +21,22 @@
 
   ## Usage
 
-  Here is a link to my deployed site: **********
+  Here is a link to my deployed site: [Tyler Peterson Portfolio](https://main--tyler-peterson-portfolio.netlify.app/)
   
-  The user begins *******
-  
- Screenshot of navbar******
+  The user begins at the homepage with a picture of me and a brief statement:
 
-  One more screenshot*******
+  ![Screenshot Whole Portfolio](https://github.com/tylerpeterson8791/portfolio/assets/75902133/d8b8b48f-7d21-447d-ae29-46810db073b9)
+
+ At the top of the page there is a navbar that allows the user to go to my portfolio, contact me or see my resume:
+
+![Screenshot Nav Bar](https://github.com/tylerpeterson8791/portfolio/assets/75902133/19cc2e4a-9a55-42ab-9ade-39bfe06ad87f)
+
 
   ## Credits
 
-Shout out "React-bootstrap"
-React-router-dom "Link"
+  Almost everything used in this application was learned in class so shout out to Gary, Katy and the cirriclum team.
+
+  I used React-Bootstrap for formatting.  Their documentation can be found here:  [React-bootstrap](https://react-bootstrap.netlify.app/)https://react-bootstrap.netlify.app/
+
+  I also used the library React-Router-Dom (specifically for the "Link" method.  Their NPM page is found here: [React-Router-Dom](https://www.npmjs.com/package/react-router-dom)
 
