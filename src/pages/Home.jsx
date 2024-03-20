@@ -7,7 +7,7 @@ import mmaker from '../assets/images/mmaker.jpg';
 
 export default function Home() {
   return (
-    <div className="page-container press-start dark-mode">
+    <div className="page-container press-start-white dark-mode">
       <Header />
       <Container className="about-me">
         <Row className="align-items-center"> {/* Center the contents vertically */}

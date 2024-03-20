@@ -11,6 +11,7 @@ const Contact = () => {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [message, setMessage] = useState('');
+  const [messageSent, setMessageSent] = useState(false);
 
   const handleNameChange = (e) => {
     setName(e.target.value);
@@ -24,13 +25,42 @@ const Contact = () => {
     setMessage(e.target.value);
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    // Handle form submission logic ONCE I DECIDE REVISIT!!!
+  
+    try {
+      const response = await fetch('https://formspree.io/f/xkndvqya', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({
+          name,
+          email,
+          message
+        })
+      });
+  
+      if (response.ok) {
+        // Clear form fields
+        setName('');
+        setEmail('');
+        setMessage('');
+        
+        // Set messageSent to true
+        setMessageSent(true);
+      } else {
+        console.error('Failed to submit form');
+        // Handle form submission error
+      }
+    } catch (error) {
+      console.error('Error:', error);
+      // Handle fetch error
+    }
   };
 
   return (
-    <div className="page-container dark-mode">
+    <div className="page-container dark-mode press-start-white">
       <Header />
       <Container className="fluid content-container">
         <Form onSubmit={handleSubmit}>
@@ -55,7 +85,7 @@ const Contact = () => {
               required
             />
           </Form.Group>
-
+ 
           <Form.Group controlId="formMessage">
             <Form.Label>Message</Form.Label>
             <Form.Control
@@ -68,9 +98,14 @@ const Contact = () => {
             />
           </Form.Group>
 
-          <Button variant="primary" type="submit">
+          <Button variant="primary" type="submit" style={{ marginTop: '10px' }}>
             Submit
           </Button>
+
+          {messageSent && (
+            <p>Message Sent!</p>
+          )}
+
         </Form>
       </Container>
       <Footer />

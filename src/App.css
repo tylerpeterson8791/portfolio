@@ -17,21 +17,19 @@ html, body, #root {
   margin-top: auto;
 }
 
-.press-start {
+.press-start-white {
   font-family: "Press Start 2P", system-ui;
   font-weight: 400;
   font-style: normal;
 }
 
-.press-start img {
-  max-width: 100%; /* Make the image responsive */
-}
 
-.press-start h1 {
+
+.press-start-white h1 {
   text-align: center; /* Center the heading text */
 }
 
-.press-start p {
+.press-start-white p {
   text-align: center;
   font-size: large; /* Center the paragraph text */
 }
