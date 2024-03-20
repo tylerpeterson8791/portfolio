@@ -20,50 +20,50 @@ const Portfolio = () => {
         <Row>
           <Col xs={12} md={6}>
             <Project
-              title="Project 1"
+              title="MERN STACK"
               image={p1Image}
-              deployedLink="https://espn.com/"
-              githubLink="https://github.com/"
+              deployedLink="https://the-legend-of-dizzy-b22681644c33.herokuapp.com/"
+              githubLink="https://github.com/AHelmin/the-legend-of-dizzy"
             />
           </Col>
           <Col xs={12} md={6}>
             <Project
-              title="Project 2"
+              title="Express-Sequelize"
               image={p2Image}
-              deployedLink="https://espn.com/"
-              githubLink="https://github.com/"
+              deployedLink="https://group-1-restaurant-manager-dc017dce6dee.herokuapp.com/"
+              githubLink="https://github.com/Ms-Meredith-McD/Restaurant-Management"
             />
           </Col>
           <Col xs={12} md={6}>
             <Project
-              title="Project 3"
+              title="MongoDB-API"
               image={p3Image}
-              deployedLink="https://espn.com/"
-              githubLink="https://github.com/"
+              deployedLink="https://drive.google.com/file/d/1aYvis2bUMjdcuc85VrnOAaCiE1Y70DaC/view?pli=1"
+              githubLink="https://github.com/tylerpeterson8791/social-network-api"
             />
           </Col>
           <Col xs={12} md={6}>
             <Project
-              title="Project 4"
+              title="MySQL"
               image={p4Image}
-              deployedLink="https://espn.com/"
-              githubLink="https://github.com/"
+              deployedLink="https://drive.google.com/file/d/12yzTCUrdUazh_TnYwhQMewzwkZnPOv_r/view?usp=sharing"
+              githubLink="https://github.com/tylerpeterson8791/employee-tracker"
             />
           </Col>
           <Col xs={12} md={6}>
             <Project
-              title="Project 5"
+              title="REACT"
               image={p5Image}
-              deployedLink="https://espn.com/"
-              githubLink="https://github.com/"
+              deployedLink="https://main--tyler-peterson-portfolio.netlify.app/"
+              githubLink="https://github.com/tylerpeterson8791/portfolio"
             />
           </Col>
           <Col xs={12} md={6}>
             <Project
-              title="Project 6"
+              title="Javascript-HTML-CSS"
               image={p6Image}
-              deployedLink="https://espn.com/"
-              githubLink="https://github.com/"
+              deployedLink="https://kdelaria.github.io/bartending-school/"
+              githubLink="https://github.com/KDeLaria/bartending-school"
             />
           </Col>
         </Row>
