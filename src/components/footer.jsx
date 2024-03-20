@@ -8,7 +8,7 @@ const Footer = () => {
       <Container>
         <Row className="d-flex justify-content-center">
           <Col xs="auto">
-            <a href="www.linkedin.com/in/tyler-peterson-0b32552bb" target="_blank" rel="noopener noreferrer" className="text-light">
+            <a href="https://www.linkedin.com/in/tyler-peterson-0b32552bb" target="_blank" rel="noopener noreferrer" className="text-light">
               <FaLinkedin size={30} />
             </a>
           </Col>

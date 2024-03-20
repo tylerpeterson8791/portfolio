@@ -1,0 +1,6 @@
+.resume-image {
+    max-width: 200%; /* Ensure the image doesn't exceed its container */
+    max-height: 800px; /* Set the maximum height of the image */
+    display: block; /* Ensure the image is displayed as a block element */
+    margin: 0 auto; /* Center the image horizontally */
+  }
