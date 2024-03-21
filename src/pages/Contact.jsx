@@ -1,11 +1,9 @@
-//I DON'T KNOW WHAT TO DO WITH THE SUBMISSIONS AS OF YET.  BUILT INFRASTRUCTURE TO HANDLE IT FOR NOW.
-//MAYBE USE EMAIL SENDER?  DON'T THINK WE SHOULD USE DATABASE
 import React, { useState } from 'react';
 import { Container, Form, Button } from 'react-bootstrap';
 import Header from '../components/header';
 import Footer from '../components/footer';
 import "/node_modules/bootstrap/dist/css/bootstrap.min.css";
-// import './Contact.css'; // Create a separate CSS file for styling??
+
 
 const Contact = () => {
   const [name, setName] = useState('');
