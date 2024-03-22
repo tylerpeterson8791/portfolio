@@ -7,8 +7,6 @@ import resumeImage from '../assets/images/resume.jpg'; // Adjust the path based 
 import '../assets/css/resume.css'
 import jsPDF from 'jspdf'; // Import jsPDF
 
-
-
 const Resume = () => {
   const downloadResume = () => {
     const doc = new jsPDF();
@@ -24,7 +22,7 @@ const Resume = () => {
       <Container className="fluid content-container">
         <Row>
           <Col xs={12} className="d-flex justify-content-center">
-            <img src={resumeImage} alt="Resume" className="resume-image" />
+            <img src={resumeImage} alt="Resume" className="resume-image"/>
           </Col>
         </Row>
         <Row>
