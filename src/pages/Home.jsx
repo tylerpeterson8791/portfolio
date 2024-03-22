@@ -29,7 +29,10 @@ export default function Home() {
                 Loves creation and problem solving.
               </p>
               <p>
-                Father of three. Adventure seeker. Junior Developer
+                Father of three. Adventure seeker.
+              </p>
+              <p>
+                Junior Developer.
               </p>
             </div>
           </Col>
