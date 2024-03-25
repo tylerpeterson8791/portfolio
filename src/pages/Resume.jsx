@@ -25,11 +25,11 @@ const Resume = () => {
             <img src={resumeImage} alt="Resume" className="resume-image"/>
           </Col>
         </Row>
-        <Row>
+        {/* <Row>
           <Col xs={12} className="text-center mt-4">
             <Button variant="primary" onClick={downloadResume}>Download PDF</Button>
           </Col>
-        </Row>
+        </Row> */}
       </Container>
       <Footer />
     </div>
